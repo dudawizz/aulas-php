@@ -15,7 +15,7 @@
     echo "Olá!";
     echo "<p style='text-align:center'>Senac Penha</p>";
     echo "<p style="text-align:center">Senac Penha</p>";
-    echo "<p style=\"text-align:center"\>Senac Penha</p>";
+    echo "<p style=\"text-align:center\">Senac Penha</p>";
     ?>
     <!-- Delimitadores de abertura e fechamento PHP -->
 
