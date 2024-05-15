@@ -36,7 +36,7 @@ const UNIDADES_SENAC = ["Penha", "São Miguel", "Itaquera"];
 $filme = [
     // Chave associativa
     "titulo" => "Deadpool", 
-    "ano" => 2016,
+    "ano" => 2018,
     "genero" => "Ação",
     "personagens" => ["Wade Wilson", "Fanático"]
 ];
@@ -47,6 +47,26 @@ $livro = array(
 );
 
 ?>
+
+    <h3>Acesso e saída de dados</h3>
+    <p>O filme <?=$filme["titulo"]?> foi lançado em 
+    <?=$filme["ano"]?>
+    </p>
+
+    <p>
+        <?=$livro["titulo"]?> é um ótimo livro!
+    </p>
+
+    <hr>
+
+    <h2>Comandos úteis para análise/depuração de arrays</h2>
+
+    <h3><code>print_r()</code> e <code>var_dump()</code></h3>
+
+    <pre><?=print_r($bandas)?></pre>
+    
+    <pre><?=var_dump($bandas)?></pre>
+    
 
     </div>
 </body>
