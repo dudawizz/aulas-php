@@ -1,6 +1,6 @@
 <?php
 // recursos.php
-const EMPRESA = "ABC Tecnologia";
+const EMPRESA = "Senac Tecnologia";
 $anoFiscal = 2024;
 $tecnologias = ["Python", "IA Generativa", "Machine Learning"];
 
