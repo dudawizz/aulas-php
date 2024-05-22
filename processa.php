@@ -24,7 +24,7 @@ if( empty($nome) || empty($email) ){
 } else { 
 
 ?>
- 
+
     <h2>Dados recebidos</h2>
     <ul>
         <li>Nome: <?=$nome?> </li>
